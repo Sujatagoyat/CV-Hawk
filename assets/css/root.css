@@ -5,7 +5,7 @@
 --fs-lg:22px;
 --fs-md:24px;
 --fs-xl:40px;
---fs-2xl:52px;
+--fs-2xl:20px;
 /* -------- font clr ----------- */
 --fc-black:#000000;
 --fc-white:#FFFFFF;
@@ -71,4 +71,34 @@
 }
 .lh-62{
     line-height: 62px;
+}
+@media (min-width:992px) {
+    :root{
+        /* --fs-s:16px;
+        --fs-sm:20px;
+        --fs-lg:22px;
+        --fs-md:24px;
+        --fs-xl:40px;
+        --fs-2xl:52px; */
+    }
+}
+@media (min-width:768px) {
+    :root{
+        /* --fs-s:16px;
+        --fs-sm:20px;
+        --fs-lg:22px;
+        --fs-md:24px;
+        --fs-xl:40px;
+        --fs-2xl:52px; */
+    }
+}
+@media (min-width:576px) {
+    :root{
+        /* --fs-s:16px; */
+        /* --fs-sm:20px; */
+        /* --fs-lg:22px; */
+        /* --fs-md:24px; */
+        /* --fs-xl:40px; */
+        --fs-2xl:52px;
+    }
 }
