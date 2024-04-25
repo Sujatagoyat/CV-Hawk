@@ -108,7 +108,33 @@
 .h_80{
     height: 80px;
 }
-
+/* ============================================== powerful tools ================================ */
+.max-w-487{
+    max-width: 487px;
+}
+.bg-powerful-clr{
+    background: var(--fc-offwhite);
+}
+.max-w-525{
+    max-width: 525px;
+}
+.underline::after{
+    content: "";
+    background-image: url(../images/svg/underline-img.svg);
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 100%;
+    max-width: 345px;
+    height: 11px;
+}
+.pt-11{
+    padding-top: 11px;
+}
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 
 

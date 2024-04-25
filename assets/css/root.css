@@ -10,7 +10,7 @@
 --fc-black:#000000;
 --fc-white:#FFFFFF;
 --fc-orange: #F36A3E;
-
+--fc-offwhite: #F9F9F9;
 }
 /* ------------------------- color ---------------------- */
 .clr-black{
@@ -22,6 +22,8 @@
 .clr-orange{
     color: var(--fc-orange);
 }
+
+/* ------------------------- font-size ------------------ */
 .text-16{
     font-size: var(--fs-s);
 }
