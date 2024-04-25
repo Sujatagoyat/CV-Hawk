@@ -1,0 +1,74 @@
+
+:root{
+--fs-s:16px;
+--fs-sm:20px;
+--fs-lg:22px;
+--fs-md:24px;
+--fs-xl:40px;
+--fs-2xl:52px;
+/* -------- font clr ----------- */
+--fc-black:#000000;
+--fc-white:#FFFFFF;
+--fc-orange: #F36A3E;
+
+}
+/* ------------------------- color ---------------------- */
+.clr-black{
+    color: var(--fc-black);
+}
+.clr-white{
+    color: var(--fc-white);
+}
+.clr-orange{
+    color: var(--fc-orange);
+}
+.text-16{
+    font-size: var(--fs-s);
+}
+.text-20{
+    font-size: var(--fs-sm);
+}
+.text-22{
+    font-size: var(--fs-lg);
+}
+.text-24{
+    font-size: var(--fs-md);
+}
+.text-40{
+    font-size: var(--fs-xl);
+}
+.text-52{
+    font-size: var(--fs-2xl);
+}
+/* -------------------------------- font-weight ---------------------------- */
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+/* ------------------------------- line-height -------------------------------------- */
+.lh-19{
+    line-height: 19px;
+}
+.lh-23{
+    line-height: 23px;
+}
+.lh-25{
+    line-height: 25px;
+}
+.lh-26{
+    line-height: 26px;
+}
+.lh-28{
+    line-height: 28px;
+}
+.lh-47{
+    line-height: 47px;
+}
+.lh-62{
+    line-height: 62px;
+}
