@@ -114,16 +114,7 @@
     background: var(--fc-offwhite);
 }
 
-.underline::after{
-    content: "";
-    background-image: url(../images/svg/underline-img.svg);
-    position: absolute;
-    bottom: -9px;
-    left: 0;
-    width: 100%;
-    max-width: 345px;
-    height: 11px;
-}
+
 .pt-11{
     padding-top: 11px;
 }
@@ -237,6 +228,16 @@
     .justify_content_end{
         justify-content: end;
     }
+    .underline-2::after{
+        content: "";
+        background-image: url(../images/svg/underline-img.svg);
+        position: absolute;
+        bottom: -9px;
+        left: 0;
+        width: 100%;
+        max-width: 345px;
+        height: 11px;
+    }
 
 }
 @media (min-width:576px) {
@@ -314,4 +315,14 @@
     .cube-magnet{
         left: 1%;
     } 
+    .underline::after{
+        content: "";
+        background-image: url(../images/svg/underline-img.svg);
+        position: absolute;
+        bottom: -9px;
+        left: 0;
+        width: 100%;
+        max-width: 345px;
+        height: 11px;
+    }
 }

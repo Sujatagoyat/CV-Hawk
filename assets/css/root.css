@@ -86,6 +86,9 @@
         /* --fs-xl:40px; */
         /* --fs-2xl:52px;  */
     }
+    .lh-47{
+        line-height: 47px;
+    }
 }
 @media (min-width:768px) {
     :root{
@@ -93,11 +96,11 @@
         /* --fs-sm:20px; */
         /* --fs-lg:22px; */
         /* --fs-md:24px; */
-        --fs-xl:40px;
+        /* --fs-xl:40px; */
         /* --fs-2xl:52px;  */
     }
     .lh-47{
-        line-height: 47px;
+        line-height: 40px;
     }
    
 }
