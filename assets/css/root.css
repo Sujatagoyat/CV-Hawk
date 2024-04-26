@@ -4,8 +4,8 @@
 --fs-sm:20px;
 --fs-lg:22px;
 --fs-md:24px;
---fs-xl:40px;
---fs-2xl:20px;
+--fs-xl:30px;
+--fs-2xl:40px;
 /* -------- font clr ----------- */
 --fc-black:#000000;
 --fc-white:#FFFFFF;
@@ -59,6 +59,9 @@
 .lh-23{
     line-height: 23px;
 }
+.lh-24{
+    line-height: 24px;
+}
 .lh-25{
     line-height: 25px;
 }
@@ -69,30 +72,34 @@
     line-height: 28px;
 }
 .lh-47{
-    line-height: 47px;
+    line-height: 40px;
 }
 .lh-62{
     line-height: 62px;
 }
 @media (min-width:992px) {
     :root{
-        /* --fs-s:16px;
-        --fs-sm:20px;
-        --fs-lg:22px;
-        --fs-md:24px;
-        --fs-xl:40px;
-        --fs-2xl:52px; */
+        /* --fs-s:16px; */
+        /* --fs-sm:20px; */
+        /* --fs-lg:22px; */
+        /* --fs-md:24px; */
+        /* --fs-xl:40px; */
+        /* --fs-2xl:52px;  */
     }
 }
 @media (min-width:768px) {
     :root{
-        /* --fs-s:16px;
-        --fs-sm:20px;
-        --fs-lg:22px;
-        --fs-md:24px;
+         /* --fs-s:16px; */
+        /* --fs-sm:20px; */
+        /* --fs-lg:22px; */
+        /* --fs-md:24px; */
         --fs-xl:40px;
-        --fs-2xl:52px; */
+        /* --fs-2xl:52px;  */
     }
+    .lh-47{
+        line-height: 47px;
+    }
+   
 }
 @media (min-width:576px) {
     :root{
@@ -100,7 +107,7 @@
         /* --fs-sm:20px; */
         /* --fs-lg:22px; */
         /* --fs-md:24px; */
-        /* --fs-xl:40px; */
+        /* --fs-xl:30px; */
         --fs-2xl:52px;
     }
 }
