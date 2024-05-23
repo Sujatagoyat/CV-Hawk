@@ -350,7 +350,69 @@
 .zoom:hover svg path{
     stroke: var(--fc-orange);
 }
+/* ------------------------------------------ theme slider ------------------------------------------ */
+.theme-box{
+     max-width: 120px;
+     width: 100%;
+     min-height: 141px;
+     box-shadow: 0px 4px 30px 0px #0000000A;
+     border-radius: 8px;
+     border: 1px solid transparent;
+     padding: 5px;
+}
+.pt-19{
+    padding-top: 19px;
+}
+.slick-dots li button:before {
+    content: unset !important;
+}
 
+.slick-dots li {
+    content: unset;
+    width: 16px !important;
+    height: 5px !important;
+    background: var(--fc-border-white);
+    margin: 7px;
+    border-radius: 21px;
+    transition: all 300ms linear;
+    z-index: 2;
+}
+
+.slick-dots li.slick-active {
+    background: var(--fc-orange);
+    width: 23px !important;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex !important;
+    gap: 20px !important;
+}
+.slick-next,
+.slick-prev {
+    display: none !important;
+}
+#slider-1 .slick-slide.slick-current.slick-active .theme-box{
+border: 1px solid var(--fc-orange) !important;
+border-radius: 8px !important; 
+box-shadow: 0px 4px 30px 0px #0000000A; 
+}
+#slider-1 .slick-slide.slick-current.slick-active .theme-box>p {
+    color: var(--fc-orange);
+}
+.pt-20{
+    padding-top: 20px;
+}
+
+.py-md-160{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
 @media (max-width:768px) {
     .w_17{
       max-width: 17.48px !important;
@@ -467,6 +529,15 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
+    .theme-box{
+        max-width: 156px;
+        width: 100%;
+        min-height: 141px;
+        box-shadow: 0px 4px 30px 0px #0000000A;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 5px;
+   }
 }
 @media (min-width:768px) {
     .min_vh_100{
@@ -539,6 +610,9 @@
     .mt-md-69{
         margin-top: 69px;
     }
+    .pt-lg-40{
+        padding-top: 40px;
+    }
 }
 @media (min-width:992px) {
     .orange-circle{
@@ -598,5 +672,17 @@
     }
     .pt-lg-208{
         padding-top: 208px;
+    }
+    .max-w-596{
+        max-width: 596px;
+    }
+    .max-w-499{
+        max-width: 499px;
+    }
+    .d_none{
+        display: none;
+    }
+    .pt-lg-40{
+        padding-top: 40px;
     }
 }

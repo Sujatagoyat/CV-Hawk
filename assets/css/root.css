@@ -2,7 +2,7 @@
 :root{
 --fs-s:16px;
 --fs-sm:20px;
---fs-lg:22px;
+--fs-lg:18px;
 --fs-md:24px;
 --fs-xl:28px;
 --fs-2xl:40px;
@@ -113,5 +113,6 @@
         /* --fs-md:24px; */
         /* --fs-xl:30px; */
         --fs-2xl:52px;
+        --fs-lg:22px;
     }
 }
