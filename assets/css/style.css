@@ -254,6 +254,36 @@
 .pb-50{
     padding-bottom: 50px;
 }
+/* ====================================== your path=================================== */
+.max-w-669{
+    max-width: 669px;
+}
+.orange-box{
+    max-width: 1140px;
+    width: 100%;
+    height: 300px;
+    border-radius: 21px;
+    background: var(--fc-orange);
+    padding: 5px;
+}
+.max-w-615{
+    max-width: 615px;
+}
+.btnn-2{
+    padding: 17px 38px;
+    border-radius: 41px;
+    background: var(--fc-white);
+    border: 1px solid transparent;
+    transition: all 300ms linear;
+}
+.btn-style-2:hover{
+    background-color: var(--fc-orange);
+    color: var(--fc-white);
+    border: 1px solid var(--fc-white);
+}
+.max-w-168{
+    max-width: 168px;
+}
 
 
 @media (max-width:768px) {
@@ -266,6 +296,7 @@
     .rotation_42{
         transform: rotate(-59.05deg);
      } 
+     
 }
 @media (max-width:992px) {
     .overFlowHidden {
@@ -419,6 +450,17 @@
     }
     .pb-md-90{
         padding-bottom: 90px;
+    }
+    .orange-box{
+        max-width: 1140px;
+        width: 100%;
+        height: 381px;
+        border-radius: 21px;
+        background: var(--fc-orange);
+        padding: 5px;
+    }
+    .pb-md-40{
+        padding-bottom: 40px;
     }
 }
 @media (min-width:992px) {
