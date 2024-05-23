@@ -11,10 +11,11 @@
 --fc-white:#FFFFFF;
 --fc-orange: #F36A3E;
 --fc-offwhite: #F9F9F9;
+--fc-border-white:#E5E5E5;
 }
 /* ------------------------- color ---------------------- */
 .clr-black{
-    color: var(--fc-black);
+    color: var(--fc-black) !important;
 }
 .clr-white{
     color: var(--fc-white);
@@ -34,7 +35,7 @@
     font-size: var(--fs-lg);
 }
 .text-24{
-    font-size: var(--fs-md);
+    font-size: var(--fs-md) !important;
 }
 .text-40{
     font-size: var(--fs-xl);
@@ -44,7 +45,7 @@
 }
 /* -------------------------------- font-weight ---------------------------- */
 .fw-400{
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 .fw-500{
     font-weight: 500;

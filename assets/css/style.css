@@ -17,7 +17,7 @@
     padding-right: 12px;
 }
 .ff-rubik{
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Rubik',sans-serif !important;
 }
 .btnn{
     padding: 12px 20px;
@@ -190,6 +190,72 @@
     right: 39%;
     top: 40%;
 }
+/* ------------------------------- frequently asked questions -------------------------------------------- */
+.pb-50{
+    padding-bottom: 50px;
+}
+.accordion {
+    --bs-accordion-border-color: transparent !important;
+    max-width: 830px !important;
+    --bs-accordion-bg: none !important;
+}
+
+/* .accordion-button:not(.collapsed) {
+    background: transparent !important;
+    color: var(--fc-white) !important;
+} */
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 24px 0px !important;
+    /* margin-bottom: 20px !important; */
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(../images/svg/bottom-arrow.svg) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+    /* transform-origin: center; */
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+    transform-origin: center !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-body {
+    padding: 0 30px 20px 0px !important;
+}
+.border_bottom {
+    border-bottom: 1px solid var(--fc-border-white) !important;
+}
+.max-w-856{
+    max-width: 856px;
+}
+.opacity_80{
+    opacity: 80% !important;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+
+
 @media (max-width:768px) {
     .w_17{
       max-width: 17.48px !important;
@@ -351,6 +417,9 @@
         padding-top: 70px;
         padding-bottom: 90px;
     }
+    .pb-md-90{
+        padding-bottom: 90px;
+    }
 }
 @media (min-width:992px) {
     .orange-circle{
@@ -404,5 +473,8 @@
     .py-lg-135-163{
         padding-top: 135px;
         padding-bottom: 163px;
+    }
+    .pb-lg-160{
+        padding-bottom: 160px;
     }
 }
