@@ -306,8 +306,20 @@
 .zoom:hover{
     scale: 1.1;
 }
-.pb-lg-33{
-    padding-bottom: 33px;
+.pt-30{
+    padding-top: 30px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.border_top{
+    border-top: 1px solid var(--fc-white);
+}
+.opacity_20{
+    opacity: 20%;
 }
 
 @media (max-width:768px) {
@@ -485,6 +497,18 @@
     }
     .pb-md-40{
         padding-bottom: 40px;
+    }
+    .pt-md-82{
+        padding-top: 82px;
+    }
+    .mb_20{
+        margin-bottom: 20px;
+    }
+    .pb-md-33{
+        padding-bottom: 33px;
+    }
+    .mt-md-69{
+        margin-top: 69px;
     }
 }
 @media (min-width:992px) {
