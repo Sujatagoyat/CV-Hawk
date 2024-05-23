@@ -16,14 +16,14 @@ function opeNav(){
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
-          infinite: false,
+          infinite: true,
           dots: true
         }
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       },
