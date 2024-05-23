@@ -321,6 +321,35 @@
 .opacity_20{
     opacity: 20%;
 }
+.bottom_line{
+    position: relative;
+}
+.bottom_line::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: var(--fc-orange);
+    border-radius: 21px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2px;
+    transition: all 200ms linear;
+    /* position: relative; */
+    /* z-index: -1; */
+}
+.bottom_line:hover::after{
+    width: 100%;
+}
+.f-link:hover{
+    color: var(--fc-orange);
+}
+.f-link:hover svg path{
+    fill: var(--fc-orange);
+}
+.zoom:hover svg path{
+    stroke: var(--fc-orange);
+}
 
 @media (max-width:768px) {
     .w_17{
