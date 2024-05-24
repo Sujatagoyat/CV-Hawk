@@ -17,12 +17,12 @@
 </head>
 
 <body>
-    <!-- <header class="min_vh_100 d-flex flex-column">
+    <header class="min_vh_100 d-flex flex-column">
         <div class="blnk ">
             <div class="custom-container ">
                 <nav class="d-flex align-items-center justify-content-between h_80">
                     <a href=""><img src="/assets/images/svg/logo.svg" alt="svg"></a>
-                    <ul class="ps-0 mb-0 gap-41 d-flex align-items-center justify-content-lg-center menulist ">
+                    <ul class="ps-0 mb-0 gap-41 d-flex align-items-center justify-content-lg-center menulist " id="navbar">
                         <li><a href="" class="fw-400 text-16 lh-18 clr-black ff-rubik nav_link "
                                 onclick="opeNav()">Home</a></li>
                         <li><a href="" class="fw-400 text-16 lh-18 clr-black ff-rubik nav_link"
@@ -64,7 +64,7 @@
             <div class="circle-magnet position-absolute d-md-block d-none">
                 <img src="./assets/images/svg/circle-magnet.svg" alt="magnet">
             </div>
-            <div class="cube-magnet position-absolute rotation_42">
+            <div class="cube-magnet position-absolute rotation_42 d-md-block d-none">
                 <img src="./assets/images/svg/cube-magnet.svg" alt="magnet">
             </div>
             <div class="custom-container">
@@ -80,9 +80,15 @@
                     <button class="clr-white fw-600 text-16 lh-18 ff-rubik btnn btn-style text-nowrap">Watch
                         Demo</button>
                 </div>
+                <div class="slider d-md-none d-block mt-36">
+                    <img class="w-100" src="./assets/images/svg/hero-slider.svg" alt="slider-img">
+                    <img class="w-100" src="./assets/images/svg/hero-slider.svg" alt="slider-img">
+                    <img class="w-100" src="./assets/images/svg/hero-slider.svg" alt="slider-img">
+                    <img class="w-100" src="./assets/images/svg/hero-slider.svg" alt="slider-img">
+                </div>
             </div>
         </div>
-    </header> -->
+    </header> 
     <!-- ======================================== themes slider ================================================ -->
     <section class="py-md-160">
         <div class="custom-container">
@@ -132,7 +138,7 @@
         </div>
     </section>
     <!-- ========================================== powerful tools ======================================== -->
-    <section class="bg-powerful-clr py-md-80 py-40  position-relative">
+    <section class="bg-powerful-clr py-md-80 py-40  position-relative z-2">
         <div class="position-absolute img-1 d-md-block d-none">
             <img src="./assets/images/svg/orange-circle.svg" alt="img">
         </div>
@@ -282,6 +288,10 @@
                 </div>
             </div>
         </div>
+    </section>
+    <!-- ============================================== what our client says ======================================== -->
+    <section>
+        
     </section>
     <!--============================================= frequently asked questions =====================================  -->
     <section>
