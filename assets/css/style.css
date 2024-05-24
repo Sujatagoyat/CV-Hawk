@@ -417,6 +417,55 @@ box-shadow: 0px 4px 30px 0px #0000000A;
     padding-top: 160px;
     padding-bottom: 160px;
 }
+/*------------------------------------------------- what our client say -------------------------------------------- */
+.py-lg-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.max-w-321{
+    max-width: 321px;
+}
+.client-box{
+    max-width: 357px;
+    width: 100%;
+    box-shadow: 0px 18px 59px 0px #00000012;
+    padding: 15px 18px;
+    border-radius: 10px;
+}
+.client-box-arrow{
+    bottom: -27px;
+    left: 32px;
+}
+.gap-10{
+    gap: 10px;
+}
+.pt-31{
+    padding-top: 31px;
+}
+.ps-25{
+    padding-left: 25px;
+}
+.mt-lg-71{
+    margin-top: 71px;
+}
+.mt-lg-45{
+    margin-top: 45px;
+}
+.mt-lg-88{
+    margin-top: 88px;
+}
+.ml-lg-107{
+    margin-left: 107px;
+}
+.mt-lg-38{
+    margin-top: 38px;
+}
+.mt-lg-40{
+    margin-top: 40px;
+}
+
+
+
 @media (max-width:768px) {
     .w_17{
       max-width: 17.48px !important;
