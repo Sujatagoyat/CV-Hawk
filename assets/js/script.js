@@ -39,9 +39,11 @@ function opeNav(){
       // instead of a settings object
     ]
   });
-  $('.slider').slick({
-    dots: true,
+  $('.client_slider').slick({
+    dots: false,
     infinite: false,
+    prevArrow:".prev",
+    nextArrow:".next",
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
